@@ -12,7 +12,7 @@ def insertion_sort_desc(arr):
     return arr
 
 if __name__ == "__main__":
-    nums = [6, 3, 10, 2, 5]
+    nums = [6, 3, 10, 2, 5, 15, 7, 23, 1]
     print("Original list:", nums)
     sorted_list = insertion_sort_desc(nums)
     print("Sorted list(monotonically decreasing):", sorted_list)
