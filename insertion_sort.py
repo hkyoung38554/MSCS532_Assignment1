@@ -1,6 +1,6 @@
 def insertion_sort_desc(arr):
     """
-    Sorts a list in-place in monotonically decreasing order using the insertion sort algo.
+    Sorts a list in-place in monotonically decreasing order using the insertion sort algorithm.
     """
     for i in range(1, len(arr)):
         key = arr[i]
